@@ -3,27 +3,15 @@
   import Home from './components/Home.vue'
 </script>
 <template>
-  <div class="m-container">
-    <div class="inner-container">
+  <div class="m-container flex justify-center items-center w-screen h-screen py-20 px-52">
+    <div class="w-full h-full flex shadow-2xl">
       <Home/>
       <Login />
-    </div>
+    </div>  
   </div>
 </template>
-
 <style scoped>
-  .m-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    height: 100vh;
-    padding: 70px 150px;
-  }
-  .inner-container{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    border: 1px solid black;
-  }
+.m-container{
+  background-image: linear-gradient(to right bottom, #dc3cf6, #b33fdd, #8d3dc2, #6b38a5, #4d3187);
+}
 </style>

@@ -3,35 +3,31 @@
 </script>
 
 <template>
-    <div class="container">
-        <h1>User Login</h1>
-        <form>
+    <div class="flex flex-col justify-center items-center gap-5 w-5/12 h-full bg-white">
+        <h1 class="text-3xl font-bold text-[#4D3287]">User Login</h1>
+        <form class="w-3/4 flex flex-col gap-2">
             <label for="username">Username</label>
             <input type="text" id="username" placeholder="username">
             <label for="password">Password</label>
             <input type="text" id="password" placeholder="password">
-            <input type="checkbox" name="showPassword" id="showPassword">
-            <button type="submit">Login</button>
+            <label for="showPassword">Show Password
+                <input type="checkbox" name="showPassword" id="showPassword">
+            </label>
+            <button type="submit" class=" text-white py-3 px-4 rounded-xl">Login</button>
         </form>
-        <h1>Don't have an account yet? <a href="/register">Register</a></h1>
+        <h1>Don't have an account yet? <a href="/register" class="text-[#4D3287] font-semibold">Register</a></h1>
     </div>
 </template>
 <style scoped>
-.container{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    border: 1px solid black;
-}
-form{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
 input{
-    padding: 8px;
+    padding: 12px;
+    background: #E5D6FF;
     border-radius: 15px;
+}
+label{
+    color: #4D3287;
+}
+button{
+    background-image: linear-gradient(to left top, #e753ff, #cd52ef, #b450dd, #9d4ccb, #8748b9);
 }
 </style>
