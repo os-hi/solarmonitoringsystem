@@ -15,7 +15,7 @@
             </label>
             <button type="submit" class=" text-white py-3 px-4 rounded-xl">Login</button>
         </form>
-        <h1>Don't have an account yet? <a href="/register" class="text-[#4D3287] font-semibold">Register</a></h1>
+        <h1>Don't have an account yet? <RouterLink  to="/register" class="text-[#4D3287] font-semibold">Register</RouterLink></h1>
     </div>
 </template>
 <style scoped>
