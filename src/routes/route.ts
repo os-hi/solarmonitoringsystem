@@ -1,16 +1,29 @@
-import { createMemoryHistory, createRouter } from 'vue-router'
+import { createWebHistory, createRouter } from 'vue-router'
 
+import DashboardView from '../views/DashboardView.vue'
+import RegisterView from '../views/RegisterView.vue'
 import LoginView from '../views/LoginView.vue'
 
-import RegisterView from '../views/RegisterView.vue'
-
-const routes = [
-  { path: '/', component: LoginView },
-  { path: '/register', component: RegisterView },
-]
-
-export const router = createRouter({
-  history: createMemoryHistory(),
-  routes,
+const router = createRouter({
+  history: createWebHistory(import.meta.env.BASE_URL),
+  routes: [
+      {
+          path: "/",
+          name: "login",
+          component: LoginView
+      },
+      {
+        path: "/register",
+        name: "register",
+        component: RegisterView
+      },
+      {
+          path: "/dashboard",
+          name: "dashboard",
+          component: DashboardView
+      }
+  ]
 })
+
+export default router
 

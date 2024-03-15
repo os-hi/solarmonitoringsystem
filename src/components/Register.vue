@@ -12,10 +12,9 @@
             <input type="text" id="username" placeholder="username">
             <label for="password">Password</label>
             <input type="text" id="password" placeholder="password">
-            <label for="showPassword">Show Password
-                <input type="checkbox" name="showPassword" id="showPassword">
-            </label>
-            <button type="submit" class=" text-white py-3 px-4 rounded-xl">Login</button>
+            <label for="password">Confirm Password</label>
+            <input type="text" id="confirmPassword" placeholder="confirm password">
+            <button type="submit" class=" text-white py-3 px-4 rounded-xl bg-gradient-to-br from-rose-400 via-fuchsia-500 to-indigo-500 hover:from-rose-500 hover:via-fuchsia-600 hover:to-indigo-600">Register</button>
         </form>
         <h1>Already have an account? <RouterLink  to="/" class="text-[#4D3287] font-semibold">Login</RouterLink></h1>
     </div>
@@ -23,13 +22,10 @@
 <style scoped>
 input{
     padding: 12px;
-    background: #E5D6FF;
+    background: #f8f4fd;
     border-radius: 15px;
 }
 label{
     color: #4D3287;
-}
-button{
-    background-image: linear-gradient(to left top, #e753ff, #cd52ef, #b450dd, #9d4ccb, #8748b9);
 }
 </style>
