@@ -2,13 +2,13 @@ export const users = [
     {
         id: 1,
         solarKey: "01",
-        username: "oshi1",
-        password: "oshi123"
+        username: "user1",
+        password: "test01"
     },
     {
         id: 2,
         solarKey: '02',
-        username: "oshi2",
-        password: "oshi123"
+        username: "user2",
+        password: "test02"
     },
 ]
