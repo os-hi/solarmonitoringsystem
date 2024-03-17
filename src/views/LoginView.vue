@@ -3,15 +3,11 @@
   import Home from '../components/Home.vue'
 </script>
 <template>
-  <div class="m-container flex justify-center items-center w-screen h-screen py-20 px-52 bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900">
-    <div class="w-full h-full flex shadow-2xl">
+  <div class="flex justify-center items-center w-screen h-screen py-5 px-10 lg:py-10 xl:py-20 xl:px-52 bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900">
+    <div class="w-full h-full flex flex-col lg:flex-row shadow-2xl">
       <Home/>
       <Login />
     </div>  
   </div>
 </template>
-<!-- <style scoped>
-.m-container{
-  background-image: linear-gradient(to right bottom, #dc3cf6, #b33fdd, #8d3dc2, #6b38a5, #4d3187);
-}
-</style> -->
+

@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="flex flex-col justify-center items-center gap-5 w-5/12 h-full bg-white">
+    <div class="flex flex-col justify-center items-center gap-5 w-full lg:w-3/6 xl:w-5/12 h-full bg-white">
         <h1 class="text-3xl font-bold text-[#4D3287]">User Register</h1>
         <form class="w-3/4 flex flex-col gap-2">
             <label for="username">Solar Key</label>
