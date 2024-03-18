@@ -13,7 +13,7 @@
    const handleSubmit = () => {
        if (users.some(user => user.username === username.value && user.password === password.value)) {
             isIncorrect.value = false
-            router.push('/dashboard');
+            router.push(`/dashboard/${username.value}`);
            
        }else{
            isIncorrect.value = true
