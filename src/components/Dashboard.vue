@@ -15,7 +15,7 @@
     <!-- <div v-for="data in solarData">
         <div>{{ data.$value }}</div>
     </div> -->
-    <div class="w-full h-full py-20 px-24 flex justify-center items-center flex-wrap gap-12">
+    <div class="w-full h-full py-10 px-12 xl:py-20 xl:px-24 flex justify-center items-center flex-wrap gap-12">
         <Card v-for="data in solarData" :name="data.id" :dataInfo="data.$value"/>
         <!-- <div class="w-[450px] h-[300px] bg-white rounded-3xl p-4 shadow-sm font-bold text-2xl text-[#4D3287]">
             <p v-if="name" class="font-light">{{ name }}</p>

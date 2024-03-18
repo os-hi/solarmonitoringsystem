@@ -3,7 +3,7 @@
     import Dashboard from '../components/Dashboard.vue';
 </script>
 <template>
-    <div class="w-screen h-screen bg-[#F3F4F6] flex">
+    <div class="w-screen h-screen lg:h-auto bg-[#F3F4F6] flex flex-col lg:flex-row">
         <Sidebar />
         <Dashboard />
     </div>
