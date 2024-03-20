@@ -17,7 +17,7 @@
 </script>
 
 <template>
-    <div class="w-full h-screen py-10 px-12 xl:py-20 xl:px-24 flex flex-col">
+    <div class="w-full h-screen py-10 px-12 xl:py-20 xl:px-24 flex flex-col gap-2">
         <select name="Sensor" id="sensors" class="w-[120px] h-[50px] rounded-xl py-2 px-4 text-white font-bold bg-gradient-to-br from-rose-400 via-fuchsia-500 to-indigo-500" v-model="sensor">
             <option value="Sensor" class="bg-[#4D3287]">Sensor 1</option>
             <option value="Sensor2" class="bg-[#4D3287]">Sensor 2</option>
