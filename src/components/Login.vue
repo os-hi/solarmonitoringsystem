@@ -27,9 +27,9 @@
         <h1 class="text-3xl font-bold text-[#4D3287]">User Login</h1>
         <form @submit.prevent="handleSubmit" class="w-3/4 flex flex-col gap-2" >
             <label for="username">Username</label>
-            <input v-model="username" type="text" id="username" placeholder="username">
+            <input v-model="username" type="text" id="username" placeholder="@user1">
             <label for="password">Password</label>
-            <input v-if="!showPassword" v-model="password" type="password" id="password" placeholder="password">
+            <input v-if="!showPassword" v-model="password" type="password" id="password" placeholder="@test01">
             <input v-else v-model="password" type="text" id="password" placeholder="password">
             <label for="showPassword">Show Password
                 <input type="checkbox" name="showPassword" id="showPassword" v-model="showPassword">
