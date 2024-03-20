@@ -4,7 +4,7 @@
     import {db} from '../database/firebase'
     import Card from './Card.vue';
     import Error from './Error.vue';
-    const solarData = useDatabaseList<{id:string, $value:number}>(dbRef(db, 'Sensor'))
+    const solarData = useDatabaseList<{id:string, $value:number}>(dbRef(db, 'user1'))
     
 
     console.log(solarData)
