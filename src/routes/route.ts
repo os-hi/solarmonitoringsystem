@@ -2,7 +2,6 @@ import { createWebHistory, createRouter } from 'vue-router'
 
 import DashboardView from '../views/DashboardView.vue'
 import RegisterView from '../views/RegisterView.vue'
-// import NotFound from '../views/NotFound.vue'
 import LoginView from '../views/LoginView.vue'
 
 const router = createRouter({
@@ -23,9 +22,7 @@ const router = createRouter({
           name: "dashboard/:id",
           component: DashboardView
       },
-      // { path: '/:pathMatch(.*)', 
-      //   component: NotFound 
-      // }
+ 
   ]
 })
 
